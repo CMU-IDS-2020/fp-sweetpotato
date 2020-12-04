@@ -4,7 +4,6 @@
 
 import matplotlib.image as mpimg
 from  PIL import Image
-import images
 
 ################################################################################
 # DATA SETUP
@@ -16,7 +15,7 @@ import images
 
 
 # Initial TEST viable terrain maps
-globalViableIllumination = Image.open(images."globalViableIllumination01.jpg")
+globalViableIllumination = Image.open("images/globalViableIllumination01.jpg")
 globalViableSlope = Image.open("images\globalViableSlope01.jpg")
 globalViableCombined = Image.open("images\globalViableCombined01.jpg")
 localViableIllumination = Image.open("images\zoomedViableIllumination01.jpg")
