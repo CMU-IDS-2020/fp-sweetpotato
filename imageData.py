@@ -16,7 +16,7 @@ from  PIL import Image
 
 # Initial TEST viable terrain maps
 globalViableIllumination = Image.open("images/globalViableIllumination01.jpg")
-globalViableSlope = Image.open("images\globalViableSlope01.jpg")
+globalViableSlope = Image.open("images/globalViableSlope01.jpg")
 globalViableCombined = Image.open("images\globalViableCombined01.jpg")
 localViableIllumination = Image.open("images\zoomedViableIllumination01.jpg")
 localViableSlope = Image.open("images\zoomedViableSlope01.jpg")
