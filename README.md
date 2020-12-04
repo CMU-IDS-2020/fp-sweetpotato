@@ -1,6 +1,6 @@
 # CMU Interactive Data Science Final Project
 
-* **Online URL**: TODO
+* **Online URL**: https://share.streamlit.io/cmu-ids-2020/fp-sweetpotato/main/main.py
 * **Team members**:
   * Contact person: lschweit@andrew.cmu.edu
 * **Track**: Interactive Visualization/Application (one of Narrative, Model, or Interactive Visualization/Application)
