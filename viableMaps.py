@@ -12,7 +12,7 @@ from PIL import Image
 
 # Global Individual
 # globalV = global Viable, S = Slope, I = illumination, numbers = limits
-globalV_S15 = Image.open("images\globalV_S15.jpg")
+globalV_S15 = Image.open("images/globalV_S15.jpg")
 globalV_S25 = Image.open("images\globalV_S25.jpg")
 globalV_S35 = Image.open("images\globalV_S35.jpg")
 
