@@ -25,8 +25,6 @@ images = {
     'Slope': localSlope,
     'Ice Stability': localIceStability
 }
-# add in saved images
-images.update(savedImages)
 
 imageNames = list(images.keys())
 
