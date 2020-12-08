@@ -80,7 +80,7 @@ def run():
 
     # Display stand alone diagrmas
     st.header('Diagram View')
-    st.write('To view your drawn, stand-alone diagram, select the downward arrow in the lower right corner of the map above')
+    st.write('Your stand-alone diagram is shown below.')
 
     # Do something interesting with the image data and paths
     if canvas_result.image_data is not None:
