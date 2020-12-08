@@ -10,7 +10,6 @@ from PIL import Image
 import pandas as pd
 import copy
 from streamlit_drawable_canvas import st_canvas
-from main import savedImages
 ################################################################################
 # DATA SETUP
 ################################################################################
