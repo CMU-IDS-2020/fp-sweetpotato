@@ -14,7 +14,7 @@ This application has four tabs. This is the Introduction to Site Analysis tab. T
 
 # 02 Related Work
 
-The complexity of space missions involves a conglomeration of knowledge and perspective from all mission aspects, ranging from mobility, visibility, and mechanical structures survival, to the scientific initiative purpose and landing location. Using software tools for data analysis often means breaking down these various information aspects piece-wise to try and understand the whole in a manual fashion. Furthermore, there exists the question of how specifically scientific initiative can be simulated. Usually, the mission’s Science Principle Investigator offers domain experience and direction to the team, leading them towards the scientific goals within the bounds of their capabilities. Some software tools exist to aid the process but none capture the essence of an individual’s personal perspective.
+Quite a few software tools exist supporting lunar site analysis. The table below details a list of these. The most relevant works are detailed further in the following paragraphs.
 
 
 <table>
@@ -135,63 +135,18 @@ The complexity of space missions involves a conglomeration of knowledge and pers
 
 **Table 1. Table of existing software used in space mission contexts and their capabilities**
 
-Table 1 lists multiple existing software tools and their capabilities to simulation the lunar environment (SIM), interact with a key data product - a digital elevation model (DEM), perform data analysis, allow for personalization (i.e. open source), and whether or not they are available for public or MoonRanger use. These each have their advantages, but none present a high fidelity capacity to address these questions. In the paragraphs to come the first three software tools are described in more detail.
+Table 1 lists multiple existing software tools and their capabilities to simulation the lunar environment (SIM), interact with a key data product - a digital elevation model (DEM), perform data analysis, allow for personalization (i.e. open source), and whether or not they are available for public. These each have their advantages, but none present a high fidelity capacity to address key surface operation analysis -- the ability to define and configure viable terrain maps for path planning purposes or to draw on specific surface operations.
 
 ![A screenshot of related work.](writeUpImages/relatedWork.jpg)
-**Figure 3. MoonTrek viewing LOLA Slope Data (in green) and Ice Stability at Depth Data (in red) [44]**
+**Figure 2. Related work. A) Moontrek interface with ice stability data layered on top of slope data. B) Quickmap viewing crater names and Permanently Shadowed Regions. C) Mars OnSight. D) Lunar maps processed and visualized using Matlab.**
 
-MoonTrek, the photoshop of the space world, allows a user to select a broad region of the Moon (north pole, south pole, equatorial region) and view datasets in 2D that are available in those locations. Resolution is low, and although opacity can be adjusted, it can be hard to understand the correlation between information.
+**MoonTrek** (A) and **Quickmap** (B), are kind of like the photoshop of the space world, allowing a user to select a broad region of the Moon (north pole, south pole, equatorial region) and view datasets in 2D that are available in those locations. Resolution is low, and although opacity can be adjusted, it can be hard to understand the correlation between information. Datasets are selected as layers and cannot be combined for the purpose of constructing a viable terrain map.
 
+**Mars OnSight** (C) is a virtual reality environment constructed from stereo images collected by the Mars Curiosity rover. In this environment, scientists and mission personnel can enter and explore the environment. Interesting features can be tagged and some limited data can be associated with certain artefacts. This is only used, however, during the live surface operations of the rover and not during critical planning stages prior to launch. Full datasets of the environment cannot be viewed.
 
+Finally, **Matlab **(D) is a software commonly used within the math and engineering communities. This software program allows for extensive data analysis, but is not intuitive or easy to use for those unfamiliar.
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.jpg "image_tooltip")
-
-
-**Figure X. Quickmap interface. [45]**
-
-Quickmap
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.jpg "image_tooltip")
-
-
-**Figure 4. Gazebo, an existing software tool used to simulate mobile robots in an user-designed environment [43]**
-
-Gazebo, one of the most commonly used tools for space simulation, is not a 2D environment for data analysis, but a simulation environment specifically for rover mobility and vision analysis. It is open-source, so allows a user to develop to their heart’s content the terrain, rover, and lighting specifications. However, it is incredibly non-intuitive, comes with a steep learning curve, and is good only for rover-scale simulation and not so much global planning.
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.jpg "image_tooltip")
-
-
-**Figure 5. Plots of lunar datasets created using Matlab**
-
-MATLAB, a software commonly used in the math and engineering communities, allows for extensive data analysis, but it doesn’t offer a sim environment.
-
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.jpg "image_tooltip")
-
-
-**Figure 6. Image of the VR environment generated by Mars OnSight.**
-
-Mars OnSight
-
-Each of these aforementioned software environments presents various constraints technically speaking. In terms of development time, this work could easily take years and be a goal for a large team, resources permitting. However, as an individual with a years’ time to complete a thesis, a lean framework will be a feasible scope and is one that can inform future development. My current experimentation, research, and development has explored Gazebo and investigated LunaRay and DEMkit, but these tools don’t offer a robust platform for landing site analysis - a concept at the core of global planning. Matlab, while technical and simple, is a strong functional tool that will allow for landing site analysis and global planning and is the tool I have used most recently with the most success, with some intermediary analysis conducted in MoonTrek. With an algorithm structure and functionality to identify waypoints as a global planner, I plan to test the fidelity of the algorithm against manually analyzed landing sites, and then implement a version of the algorithm in a more user-intuitive and exploratory platform.
-
+The goals of this project are to leverage some existing successful capabilities of the aforementioned works and develop new functionality that fills the critical gaps of site analysis and surface operations planning.
 
 # 03 Methods
 
