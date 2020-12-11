@@ -1,11 +1,17 @@
-# Find Your Favorite Restaurant in Your Neighbor!
+# Tool for Lunar Polar Site Analysis
 
 ![A screenshot of macro view. Could be a GIF.](macroViewA3.jpg)
 ![A screenshot of individual view. Could be a GIF.](individualViewA3.jpg)
 
 <!---[TODO: Short abstract describing the main goals and how you achieved them.]-->
 
-Restaurants - there's a lot to learn about them.  from their ratings, and their review trends. Whether you're someone who likes food, a business owner, or a city planner -- restaurant ratings, characteristics, and over-time data projection offer a great deal of insight. <br /> This web-app allows users to view two tabs which illuminate this data, configured from Yelp business and review data. Each tab allows users to focus in on a high-level look at city review trends or low-level restaurant-specific infomration. Viewports can be used individually to narrow in on high or low level specific questions, or used together for in depth analysis of overtime trends and projections.
+## Introduction
+
+**Site Analysis**
+Site analysis is the process of understanding a planetary environment in order to prepare for a space mission. This analysis is conducted for both human and rover space exploration with the goals of understanding three core concepts --(a)  system capabilities for both rover/humans and lander, (b) science objectives, and (c) surrounding environmental conditions. Understanding a given site allows a mission to develop a more detailed Concept of Operations (CONOPs), specify surface operations, and design the rover or human exploration system around the environmental considerations that come with the environment during operations. This application is designed specifically for rover space exploration.
+
+**Application Scope**
+This application has four tabs. This is the Introduction to Site Analysis tab. The Individual Map View allows users to analyze specific datasets individually in a side-by-side and layered view. The Viable Terrain tab facilitates the configuration of viable terrain maps, customizable to riskier and less risky conditions relative to system capabilities. And finally an Operations Planning tab allows a user to manually draw on top of maps -- to configure surface operations, to outline regions of interest, or otherwise. Have fun and enjoy!
 
 ## Project Goals
 
