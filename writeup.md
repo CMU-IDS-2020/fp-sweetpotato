@@ -6,7 +6,7 @@
 
 Site analysis is the process of understanding a planetary environment in order to prepare for a space mission. This analysis is conducted for both human and rover space exploration with the goals of understanding three core concepts --(a)  system capabilities for both rover/humans and lander, (b) science objectives, and (c) surrounding environmental conditions. Understanding a given site allows a mission to develop a more detailed Concept of Operations (CONOPs), specify surface operations, and design the rover or human exploration system around the environmental considerations that come with the environment during operations. This application is designed specifically for rover space exploration.
 
-![A screenshot of three mission considerations.](writeupImages/three_mission.jpg)
+![A screenshot of three mission considerations.](writeUpImages/three_mission.jpg)
 
 **Application Scope**
 
@@ -137,7 +137,7 @@ The complexity of space missions involves a conglomeration of knowledge and pers
 
 Table 1 lists multiple existing software tools and their capabilities to simulation the lunar environment (SIM), interact with a key data product - a digital elevation model (DEM), perform data analysis, allow for personalization (i.e. open source), and whether or not they are available for public or MoonRanger use. These each have their advantages, but none present a high fidelity capacity to address these questions. In the paragraphs to come the first three software tools are described in more detail.
 
-![A screenshot of related work.](writeupImages/relatedWork.jpg)
+![A screenshot of related work.](writeUpImages/relatedWork.jpg)
 **Figure 3. MoonTrek viewing LOLA Slope Data (in green) and Ice Stability at Depth Data (in red) [44]**
 
 MoonTrek, the photoshop of the space world, allows a user to select a broad region of the Moon (north pole, south pole, equatorial region) and view datasets in 2D that are available in those locations. Resolution is low, and although opacity can be adjusted, it can be hard to understand the correlation between information.
