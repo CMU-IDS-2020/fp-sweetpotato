@@ -1,7 +1,0 @@
-Slope data here is filtered to show slopes less than or equal to 20 degrees, an average threshold slope for most rovers with good mobility systems. 
-
-
-Slope data is produced by interpolating elevation data at 10m per pixel. The instrument used to gather this data is aboard the Lunar Reconnaissance Orbiter (LRO). This orbiter, a lunar satellite, focusses its exposure at the lunar poles, aligning most frequently at the lunar polar centers. Therefore, areas closest to the pole centers have higher resolution datasets available. Resolution of most publicly available elevation datasets gets to 5m per pixel at the highest. 
-
-
-Elevation models can also be constructed from lunar imagery. This process is called shape from shading, which begins with a composite image reconstructed from multiple smaller and differently illuminated lunar imagery. These datasets take more work to produce but can provide digital elevation models up to 0.5m per pixel, highly beneficial for a rover-scale understanding of the lunar landscape.
