@@ -1,6 +1,8 @@
 # Lunar Polar Site Analysis
 
-# 01 Introduction
+Site analysis is the process of understanding a planetary environment in order to prepare for a space mission. This analysis is conducted for both human and rover space exploration with the goals of understanding three core concepts --(a)  system capabilities for both rover/humans and lander, (b) science objectives, and (c) surrounding environmental conditions. Understanding a given site allows a mission to develop a more detailed Concept of Operations (CONOPs), specify surface operations, and design the rover or human exploration system around the environmental considerations that come with the environment during operations. While many existing applications exist to aid this process, dataset resolution is limited, some are non-intuitive, there are no or limited capabilities to configure and understand what terrain is rovable, and all lack a platform for surface operations development. This application, focusing on lunar polar rover exploration and attempts to incorporate some of these missing pieces to the puzzle.
+
+## 01 Introduction
 
 **Problem**
 
@@ -14,7 +16,7 @@ Within the context of lower-resource missions, how can a smaller team of mission
 
 Within Carnegie Mellon there exist a few space missions. One, MoonRanger, is sending a micro-rover to the lunar south pole in December 2022. I lead MoonRanger’s Mission Operations team, a team whose goal is to design the mission in all aspects. My focus is site selection and surface operations development. In my experience doing this, many software tools have fallen short due to low resolution datasets, limited analysis functionality, and full lack of support for surface operations development. A tool meeting these needs would be highly beneficial for this mission, but also for other missions with more limited resources unlike the typical gargantuan NASA space missions.
 
-# 02 Related Work
+## 02 Related Work
 
 Quite a few software tools exist supporting lunar site analysis. The table below details a list of these. The most relevant works are detailed further in the following paragraphs.
 
@@ -150,7 +152,7 @@ Finally, **Matlab** (fig. 2D) is a software commonly used within the math and en
 
 The goals of this project are to leverage some existing successful capabilities of the aforementioned works and develop new functionality that fills the critical gaps of site analysis and surface operations planning.
 
-# 03 Methods
+## 03 Methods
 
 The core purpose of this application is to allow a platform for those conducting mission development procedures to. Goals are as follows:
 1. To facilitate the understanding of lunar datasets individually, their significance, and how they were collected in some capacity. 
@@ -167,7 +169,7 @@ Viable maps for slope and illumination are constructed also in Matlab by setting
 
 streamlit_drawable_canvas played a valuable role in a tab dedicated to surface operations development. 
 
-# 04 Results
+## 04 Results
 
 The resulting application consists of four tabs.
 
@@ -183,7 +185,7 @@ This tab lets users identify regions which are rovable and those which are not r
 **Tab 4: Operation Planning**
 This tab leverages each local individual map as a canvas, selectable by a user, on which to draw. Users can select waypoints of interest for their science purpose and evaluate whether or not those waypoints fit their illumination and slope capabilities. Users can draw on landing ellipses using the circle tool, outline regions of interest with the rectangle tool, indicate rover traverse paths using the line tool, or freedraw as they like. Each object drawn can be resized and moved around within the canvas. Users can also adjust the opacity of the background map to focus more on the map or more on their diagrams. Diagrams are shown below the canvas on their own and can be saved by right clicking.
 
-# 05 Discussion
+## 05 Discussion
 
 Through the use of this application, users learn about the site analysis process, the criteria for evaluation - rover capabilities, environmental constraints, and scientific initiative, and how  site analysis benefits mission development. They learn about three key maps used for such site analysis, the resolution of the data, and what instruments were used for data collection. 
 
@@ -191,6 +193,6 @@ This system has enabled intuitive user configuration of viable terrain maps, a f
 
 The system also provides a platform for dataset-and-drawing-integrated surface operations development, something lacking in all existing site analysis tools.
 
-# 06 Future Work
+## 06 Future Work
 The future of this work could involve the integration of more datasets, for instance datasets of permanently shadowed regions or temperature profiles at the south pole. It could allow users to all lunar regions (south pole, north pole, and equatorial regions) or could even be extended to include different planets, prioritized by those most within the reach of current space exploration trends and technological capabilities for rover exploration. It could investigate further the means by which users could interact directly with the datasets themselves versus images. The Viable Terrain tab could include more variable risk levels for both slope and illumination and could include some way to overlay science specific datasets. The Operation Planning tab could allow users to number or label the marks they make, save multiple diagrams, and view other maps as background images.
 
