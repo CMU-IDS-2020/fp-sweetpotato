@@ -30,10 +30,3 @@ The above instructions should result in a web link opening in your browser.
 ## Work distribution
 
 As a solo project-dooer, Lydia Schweitzer completed this work on her own. She processed datasets using Matlab, designed the intention and configuration of the web application, and documented all work.
-
-### Final deliverables
-
-- [ ] All code for the project should be in the repo.
-- [ ] A 5 minute video demonstration.
-- [ ] Update Readme according to Canvas instructions.
-- [ ] A detailed project report. The contact should submit the video and report as a PDF on Canvas.
