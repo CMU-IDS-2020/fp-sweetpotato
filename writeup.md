@@ -1,4 +1,4 @@
-# Tool for Lunar Polar Site Analysis
+# Lunar Polar Site Analysis
 
 # 01 Introduction
 
