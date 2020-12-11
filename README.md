@@ -5,6 +5,8 @@
   * Contact person: lschweit@andrew.cmu.edu
 * **Track**: Interactive Visualization/Application (one of Narrative, Model, or Interactive Visualization/Application)
 
+![Summary image.](writeUpImages/summaryImage.jpg)
+
 ## Work distribution
 
 Update towards the end of the project.
